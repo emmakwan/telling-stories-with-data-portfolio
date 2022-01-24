@@ -1,0 +1,27 @@
+body {
+  margin: 5%;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+.navbar {
+  margin-left: 85%;
+}
+.navbar ul a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 30px;
+}
