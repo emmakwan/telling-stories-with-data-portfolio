@@ -1,19 +1,24 @@
 body {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 5%;
   margin-bottom: 5%;
+  max-width: 80%;
+}
+
+iframe {
+  max-width: 90%;
 }
 
 .navbar ul li {
   list-style-type: none;
   display: inline;
   font-family: "Roboto Slab", serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .navbar {
-  margin-left: 85%;
+  margin-left: 80%;
 }
 
 .navbar ul a {
@@ -23,17 +28,17 @@ body {
 h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 h2 {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 15px;
 }
