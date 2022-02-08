@@ -10,6 +10,10 @@ iframe {
   max-width: 90%;
 }
 
+img {
+  max-width: 90%;
+}
+
 .navbar ul li {
   list-style-type: none;
   display: inline;
@@ -39,6 +43,12 @@ h2 {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 25px;
+}
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 p {

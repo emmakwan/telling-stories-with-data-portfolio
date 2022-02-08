@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bloomberg Data Visualization Reesign</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li class="navitem"><a href="index.html">Home</a></li>
+        <li class="navitem"><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h1>Redesigning a Bloomberg Payroll Data Visualization</h1>
+      <h2>The Original Visualization</h2>
+      <p>
+        The visualization I chose is from a Bloomberg article titled "'Crazy
+        Mess' of Jobs Data Has Economists Getting It Wrong Again."
+      </p>
+      <img
+        src="/assets/bloomberg.PNG"
+        alt="Bloomberg visualization of estimate versus actual payroll data"
+      />
+      <h2>Critiquing the Visualization</h2>
+      <p>
+        I initially evaluated my dataset with the Data Visualization
+        Effectiveness Profile developed by Stephen Few, which focused on a few
+        categories.
+      </p>
+      <h3>Usefuless: 8/10</h3>
+      <p>
+        I gave the visualization an 8/10 because I thought it was a very useful
+        visualization for the intended audience. The subject area is the economy
+        and jobs, and especially with COVID and Omicron, I think that it's
+        important that people are aware of the factors affecting the U.S.
+        economy. I also thought it was useful because it was pushing back
+        against a narrative that jobs are really down with COVID and could
+        hopefully educate people on the current state of working.
+      </p>
+      <h3>Completeness: 6/10</h3>
+      <p>
+        I gave the visualization a 6/10 because while I think it was fairly
+        complete, it still was missing some key context for what payroll data
+        actually is and why we should find that information important. Although
+        there wasn't any missing data necessarily, I found the missing context
+        important enough to dock points off for completeness because the data
+        doesn't tell a full story without context.
+      </p>
+      <h3>Perceptibility: 6/10</h3>
+      <p>
+        While I thought that the visualization was okay in terms of
+        perceptibility, I thought that there was unnecessary effort that would
+        need to be put in to truly understand what was going on. I also thought
+        that the visualizatio format wasn't making the comparison as easy and
+        that greatly affected perceptibility.
+      </p>
+      <h3>Truthfulness: 9/10</h3>
+      <p>
+        I did not think that the visualization was being untruthful at all. I
+        could tell that the story the visualization was trying to tell was
+        supported by the data that was being visualized.
+      </p>
+      <h3>Intuitiveness: 6/10</h3>
+      <p>
+        I think that this visualization was not as intuitive for people who are
+        unfamiliar with labor statistics. For example, I at first thought that
+        the y-axis was in dollars since I assumed payroll ahd something to do
+        with money, but it's actually people as payroll involves people that are
+        being paid to work. There wasn't any guidance on how to interpret the
+        data so I also thought that affected intuitiveness.
+      </p>
+      <h3>Aesthetics: 8/10</h3>
+      <p>
+        I gave this visualization a fairly high score because it's a very
+        straightforward color palette and layout, and I didn't have any major
+        issues in terms of the aesthetics of it affecting my interpretation of
+        it. I also thought it was very on brand for Bloomberg.
+      </p>
+      <h3>Engagement: 7/10</h3>
+      <p>
+        I found it to be a fairly strong conversation starter in terms of its
+        conversation about the job market, which is heavily affecting people
+        right now and the possibilities that might come out of understanding how
+        payroll trends are different from estimates.
+      </p>
+      <h2>Wireframing</h2>
+      <p>
+        The first thing that I immediately knew I wanted to do in terms of
+        wireframing was figuring out how to represent it in a line graph instead
+        of a bar chart. I thought a line graph might be better because it would
+        be easier to show trends and observe the difference between the two
+        measures. I also wanted to change the y-axis labeling to be on the left
+        side so it would make more sense with the placement of the legend.
+      </p>
+      <h3>Wireframe 1</h3>
+      <img src="/assets/wireframe1.PNG" alt="Wireframe 1" />
+      <h3>Wireframe 2</h3>
+      <img src="/assets/wireframe2.PNG" alt="@ireframe 2" />
+      <h3>Wireframe 3</h3>
+      <img src="/assets/wireframe3.PNG" alt="Wireframe 3" />
+
+      <h2>Testing the Solution</h2>
+      <p>
+        I talked to two different people in order to test my solution and showed
+        them all three wireframes to get feedback on what they liked and didn't
+        like. The first person I talked to was a college student in her 20s. I
+        was able to gain a few key insights from her interview.
+      </p>
+      <p>For things she liked:</p>
+      <ul>
+        <li>
+          <p>
+            She thought that the line graph was effective in helping her
+            understand that she was supposed to interpret the trend over time.
+          </p>
+        </li>
+        <li>
+          <p>
+            She also thought the color palette being simple made the visual not
+            distracting.
+          </p>
+        </li>
+        <li>
+          <p>
+            Of the three wireframes, she liked the format of the legend for
+            Wireframe 3 the best, and also liked the more teal color scheme.
+          </p>
+        </li>
+      </ul>
+      <p>For things she didn't like:</p>
+      <ul>
+        <li>
+          <p>
+            She didn't like the extreme blue of Wireframes 1 and 2 because she
+            thought it was a bit too bright.
+          </p>
+        </li>
+        <li>
+          <p>
+            She remarked she was unfamiliar with what payroll meant and didn't
+            completely understand what the numbers were representing.
+          </p>
+        </li>
+      </ul>
+      <p>The second person I talked to was an engineer in his 30s.</p>
+      <p>For things he liked:</p>
+      <ul>
+        <li>
+          <p>
+            He liked the horizontal lines better than the vertical lines for
+            being able to keep track of the payroll data.
+          </p>
+        </li>
+        <li>
+          <p>He also liked the line graph for seeing the trends in the data.</p>
+        </li>
+      </ul>
+      <p>For things he didn't like:</p>
+      <ul>
+        <li>
+          <p>
+            He was also confused by the payroll data and what exactly it meant
+            in terms of dollars versus jobs.
+          </p>
+        </li>
+      </ul>
+      <h2>Build Your Solution</h2>
+    </section>
+    <p>
+      I ultimately decided on a solution that included teal coloring, clearer
+      labels for the title, legend, and y-axis, and the same shading in order to
+      emphasize the difference between the actual values and the estimate. I
+      also ended up keeping the horizontal lines instead of the vertical lines
+      because that made things clearer in terms of keeping up with the trends of
+      the payroll numbers.
+    </p>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/8635104">
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </div>
+  </body>
+</html>
